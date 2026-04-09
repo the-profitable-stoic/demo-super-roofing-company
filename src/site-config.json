@@ -1,0 +1,572 @@
+{
+  "business": {
+    "name": "Super Roofing Company",
+    "phone": "+17042327879",
+    "category": "roofer",
+    "city": "Charlotte",
+    "state": "NC"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-heritage-craft",
+      "categoryGroup": "roofing",
+      "name": "Heritage Craft",
+      "recipeFile": "roofing/heritage-craft.astro",
+      "colors": {
+        "primary": "#3D2E1F",
+        "primaryDark": "#251A10",
+        "primaryLight": "#D4C5B0",
+        "secondary": "#5C4A3A",
+        "accent": "#6B5335",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#5C4A3A",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "roofing/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Charlotte's Roofing Authority",
+      "heroSubline": "Protecting your home with expert roofing services. Serving Charlotte, NC and surrounding areas.",
+      "aboutTitle": "Your Trusted Charlotte Roofing Partner",
+      "aboutText": [
+        "Super Roofing Company started with a simple goal: to provide Charlotte homeowners with reliable, high-quality roofing solutions. We're not just roofers; we're your neighbors, committed to protecting your homes from the unpredictable North Carolina weather.",
+        "We built our reputation on honesty, integrity, and superior workmanship. We approach every project, from minor repairs to full roof replacements, with meticulous attention to detail and a commitment to exceeding your expectations. We understand the challenges of Charlotte's climate and build roofs to last.",
+        "We're deeply invested in the Charlotte community. We source materials locally whenever possible and actively support local charities. We're proud to contribute to the growth and resilience of our city."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Expertise",
+          "description": "We understand Charlotte's unique climate and housing styles."
+        },
+        {
+          "title": "Quality Materials",
+          "description": "We use only the best materials from trusted suppliers."
+        },
+        {
+          "title": "Skilled Craftsmanship",
+          "description": "Our team is highly trained and experienced in all aspects of roofing."
+        },
+        {
+          "title": "Transparent Pricing",
+          "description": "We provide clear and honest estimates with no hidden fees."
+        }
+      ],
+      "ctaHeadline": "Get a Free Roofing Inspection",
+      "ctaSubline": "Protect your biggest investment. Schedule your no-obligation inspection today."
+    },
+    "services": [
+      {
+        "slug": "roof-replacement",
+        "name": "Roof Replacement",
+        "shortDescription": "Full roof replacement services for Charlotte homes.",
+        "description": "Is your roof nearing the end of its lifespan? Are you noticing leaks, missing shingles, or other signs of damage? It might be time for a complete roof replacement. Super Roofing Company offers expert roof replacement services tailored to the unique needs of Charlotte homes. We handle everything from removing your old roof to installing a brand new, durable, and beautiful roofing system. We understand Charlotte's weather patterns and recommend materials that can withstand the heat, humidity, and occasional ice storms.\n\nWe work with a wide variety of roofing materials, including asphalt shingles, metal roofing, and tile, ensuring that you find the perfect fit for your style and budget. Our team will guide you through the selection process, explaining the pros and cons of each option. We'll also handle all necessary permits and inspections, making the process as smooth and stress-free as possible.\n\nA new roof is a significant investment, and we're committed to providing you with the highest quality workmanship and materials. We back our roof replacements with industry-leading warranties, giving you peace of mind knowing that your investment is protected for years to come. We'll ensure your new roof handles the summer heat and those occasional winter ice storms.",
+        "process": [
+          "Step 1: Thorough roof inspection and assessment",
+          "Step 2: Material selection and customized proposal",
+          "Step 3: Removal of old roofing system",
+          "Step 4: Installation of new roofing system with quality flashing and underlayment"
+        ],
+        "benefits": [
+          "Increased home value",
+          "Improved curb appeal",
+          "Enhanced energy efficiency",
+          "Long-term protection from the elements"
+        ],
+        "faq": [
+          {
+            "question": "How long does a roof replacement take?",
+            "answer": "The duration depends on the size and complexity of the roof, but most residential roof replacements take 3-5 days."
+          },
+          {
+            "question": "What type of roofing material is best for Charlotte's climate?",
+            "answer": "Asphalt shingles are a popular and cost-effective choice, but metal roofing offers superior durability and longevity."
+          },
+          {
+            "question": "Do I need a permit for a roof replacement?",
+            "answer": "Yes, a permit is required for roof replacements in Charlotte. We will handle the permit application process for you."
+          }
+        ]
+      },
+      {
+        "slug": "roof-repair",
+        "name": "Roof Repair",
+        "shortDescription": "Expert roof repair services to fix leaks and damage.",
+        "description": "Don't let a small leak turn into a major problem. Super Roofing Company provides prompt and reliable roof repair services throughout the Charlotte area. Whether you have missing shingles, a leaky chimney, or storm damage, our experienced technicians can quickly diagnose the issue and provide effective solutions. We know that Charlotte's unpredictable weather can take a toll on your roof, and we're here to help you protect your home from further damage.\n\nWe handle all types of roof repairs, from minor patching to major structural repairs. We use high-quality materials and proven techniques to ensure that your repairs are long-lasting and effective. We understand the urgency of roof repairs, and we offer 24/7 emergency service to address urgent issues. We’ll work to ensure your home is protected from the next sudden thunderstorm that rolls through the Queen City.\n\nWe'll provide you with a detailed estimate before starting any work, so you know exactly what to expect. We pride ourselves on our honest and transparent pricing, and we'll never try to sell you unnecessary services. Our goal is to provide you with the best possible service at a fair price, protecting your home from the elements.",
+        "process": [
+          "Step 1: Thorough roof inspection to identify damage",
+          "Step 2: Detailed explanation of repair options and costs",
+          "Step 3: Secure the area to prevent further damage",
+          "Step 4: High-quality repairs using durable materials"
+        ],
+        "benefits": [
+          "Prevents further damage",
+          "Extends roof lifespan",
+          "Saves money on costly replacements",
+          "Maintains home value"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if my roof needs repair?",
+            "answer": "Signs of roof damage include leaks, missing shingles, water stains on ceilings, and sagging areas."
+          },
+          {
+            "question": "How quickly can you respond to a roof repair request?",
+            "answer": "We offer 24/7 emergency service and can typically respond to urgent requests within a few hours."
+          },
+          {
+            "question": "Do you offer a warranty on roof repairs?",
+            "answer": "Yes, we offer a warranty on all of our roof repairs, giving you peace of mind knowing that your repairs are protected."
+          }
+        ]
+      },
+      {
+        "slug": "gutter-services",
+        "name": "Gutter Services",
+        "shortDescription": "Gutter Installation, repair, and cleaning for Charlotte homes.",
+        "description": "Properly functioning gutters are essential for protecting your home from water damage. Super Roofing Company offers comprehensive gutter services to keep your Charlotte home safe and dry. We provide gutter installation, repair, and cleaning services to ensure that your gutters are working efficiently and effectively.\n\nWe install seamless gutters, which are custom-made to fit your home perfectly, eliminating seams that can leak and cause problems. We also offer a variety of gutter materials, including aluminum, copper, and steel, so you can choose the best option for your budget and aesthetic preferences. Our team also provides gutter repair services, fixing leaks, sagging gutters, and other damage. We understand the importance of maintaining your gutters, and we offer regular cleaning services to remove leaves, debris, and other obstructions that can cause clogs and water damage.\n\nProtect your home from the damaging effects of rain and snow with our expert gutter services. We'll ensure that your gutters are functioning properly, diverting water away from your foundation and protecting your home from water damage. We understand the red clay soil around Charlotte can create water issues and we can help direct water away from your foundations.",
+        "process": [
+          "Step 1: Inspect existing gutter system",
+          "Step 2: Recommend gutter cleaning, repair, or replacement as needed",
+          "Step 3: Install or repair gutters with precision",
+          "Step 4: Ensure proper water flow and drainage away from the home"
+        ],
+        "benefits": [
+          "Prevents water damage to foundation",
+          "Protects siding and landscaping",
+          "Reduces risk of basement flooding",
+          "Extends the life of your roof"
+        ],
+        "faq": [
+          {
+            "question": "How often should I clean my gutters?",
+            "answer": "We recommend cleaning your gutters at least twice a year, especially in the spring and fall."
+          },
+          {
+            "question": "What are seamless gutters?",
+            "answer": "Seamless gutters are custom-made to fit your home, eliminating seams that can leak and cause problems."
+          },
+          {
+            "question": "What are the benefits of gutter guards?",
+            "answer": "Gutter guards prevent leaves and debris from clogging your gutters, reducing the need for frequent cleaning."
+          }
+        ]
+      },
+      {
+        "slug": "storm-damage-repair",
+        "name": "Storm Damage Repair",
+        "shortDescription": "Swift and reliable storm damage repair for Charlotte roofs.",
+        "description": "Charlotte's weather can be unpredictable, and severe storms can cause significant damage to your roof. Super Roofing Company provides fast and reliable storm damage repair services to help you get your home back to normal as quickly as possible. We understand the stress and inconvenience of dealing with storm damage, and we're here to help you navigate the insurance claims process and get your roof repaired quickly and efficiently.\n\nOur team has extensive experience in dealing with storm damage, and we can quickly assess the damage and provide you with a detailed estimate for repairs. We work with all major insurance companies and can help you file your claim and get the compensation you deserve. We handle all types of storm damage, including wind damage, hail damage, and water damage. We'll work to ensure your roof is repaired to its pre-storm condition, protecting your home from further damage.\n\nDon't let storm damage compromise the safety and security of your home. Contact Super Roofing Company for fast and reliable storm damage repair services. We'll work to get your roof repaired quickly and efficiently, giving you peace of mind knowing that your home is protected.",
+        "process": [
+          "Step 1: Emergency roof tarping to prevent further damage",
+          "Step 2: Thorough damage assessment and documentation",
+          "Step 3: Assistance with insurance claim process",
+          "Step 4: Professional storm damage repairs"
+        ],
+        "benefits": [
+          "Prevents further water damage",
+          "Restores structural integrity",
+          "Helps with insurance claims",
+          "Provides peace of mind"
+        ],
+        "faq": [
+          {
+            "question": "What should I do immediately after a storm damages my roof?",
+            "answer": "Contact Super Roofing Company for emergency tarping to prevent further water damage. Also, document the damage with photos and videos for your insurance claim."
+          },
+          {
+            "question": "How long do I have to file an insurance claim for storm damage?",
+            "answer": "The timeframe for filing a claim varies by insurance company, but it's best to file as soon as possible after the storm."
+          },
+          {
+            "question": "Will filing a claim raise my insurance rates?",
+            "answer": "Filing a claim for storm damage may or may not raise your rates, depending on your insurance policy and the extent of the damage."
+          }
+        ]
+      },
+      {
+        "slug": "roof-inspections",
+        "name": "Roof Inspections",
+        "shortDescription": "Comprehensive roof inspections to assess roof health.",
+        "description": "Protect your investment with regular roof inspections from Super Roofing Company. Our comprehensive roof inspections can identify potential problems early on, preventing costly repairs down the road. Whether you're buying or selling a home, or simply want to ensure that your roof is in good condition, our experienced inspectors can provide you with a detailed assessment of your roof's health.\n\nWe thoroughly inspect all aspects of your roof, including shingles, flashing, gutters, and ventilation. We'll identify any signs of damage, such as leaks, missing shingles, or rot, and provide you with a detailed report of our findings. We understand the importance of a healthy roof, and we'll provide you with recommendations for any necessary repairs or maintenance.\n\nDon't wait until you have a major problem to inspect your roof. Regular roof inspections can help you extend the life of your roof and prevent costly repairs. Contact Super Roofing Company today to schedule your comprehensive roof inspection. We inspect roofs all across Charlotte and the surrounding areas.",
+        "process": [
+          "Step 1: Thorough visual inspection of roof surface",
+          "Step 2: Check all flashing and penetration points",
+          "Step 3: Inspect gutters and downspouts for proper drainage",
+          "Step 4: Detailed report with photos and recommendations"
+        ],
+        "benefits": [
+          "Identifies potential problems early",
+          "Prevents costly repairs",
+          "Extends roof lifespan",
+          "Provides peace of mind"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my roof inspected?",
+            "answer": "We recommend having your roof inspected at least once a year, and after any major storm."
+          },
+          {
+            "question": "What is included in a roof inspection?",
+            "answer": "Our roof inspections include a thorough visual inspection of all aspects of your roof, including shingles, flashing, gutters, and ventilation."
+          },
+          {
+            "question": "How much does a roof inspection cost?",
+            "answer": "Contact us for a free quote on our comprehensive roof inspection services."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-roofing",
+        "name": "Commercial Roofing",
+        "shortDescription": "Commercial roofing services for Charlotte businesses.",
+        "description": "Super Roofing Company provides commercial roofing services for businesses throughout the Charlotte area. We understand the unique needs of commercial properties, and we offer a wide range of roofing solutions to meet your specific requirements. Whether you need a new roof, roof repairs, or regular maintenance, our experienced team can provide you with the highest quality workmanship and materials.\n\nWe work with a variety of commercial roofing materials, including TPO, EPDM, and metal roofing. We understand the importance of minimizing downtime for your business, and we'll work to complete your project quickly and efficiently, without disrupting your operations. We also offer preventative maintenance programs to help you extend the life of your commercial roof and prevent costly repairs.\n\nProtect your business with a durable and reliable roof from Super Roofing Company. Contact us today to discuss your commercial roofing needs. We understand the needs of businesses in Charlotte.",
+        "process": [
+          "Step 1: On-site evaluation of commercial roofing needs",
+          "Step 2: Customized roofing solutions and material selection",
+          "Step 3: Expert installation with minimal disruption",
+          "Step 4: Ongoing maintenance and support"
+        ],
+        "benefits": [
+          "Protects commercial property",
+          "Minimizes business disruption",
+          "Extends roof lifespan",
+          "Enhances energy efficiency"
+        ],
+        "faq": [
+          {
+            "question": "What types of commercial roofing materials do you offer?",
+            "answer": "We offer a variety of commercial roofing materials, including TPO, EPDM, and metal roofing."
+          },
+          {
+            "question": "How long does a commercial roofing project take?",
+            "answer": "The duration of a commercial roofing project depends on the size and complexity of the roof, but we'll work to complete your project as quickly as possible."
+          },
+          {
+            "question": "Do you offer preventative maintenance programs for commercial roofs?",
+            "answer": "Yes, we offer preventative maintenance programs to help you extend the life of your commercial roof and prevent costly repairs."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Huntersville",
+        "slug": "huntersville-nc",
+        "state": "NC",
+        "content": "Super Roofing Company is proud to provide expert roofing services to Huntersville, NC. Known for its beautiful suburban developments that emerged in the 1990s and 2000s, Huntersville homes require roofing solutions that can withstand the hot, humid summers and occasional severe weather. We understand the specific needs of Huntersville homeowners and offer a range of roofing options to protect your investment.\n\nFrom asphalt shingles to metal roofing, our team of experienced professionals will ensure your roof is installed or repaired with precision and care. We are committed to providing reliable and affordable roofing services to the Huntersville community. Whether you need a minor repair or a complete roof replacement, Super Roofing Company is here to help.",
+        "localContext": "Huntersville is a vibrant town characterized by its family-friendly atmosphere and numerous parks and recreational areas, with many homes built in the late 20th and early 21st centuries.",
+        "nearbyAreas": [
+          "Cornelius",
+          "Davidson",
+          "Mooresville"
+        ]
+      },
+      {
+        "city": "Concord",
+        "slug": "concord-nc",
+        "state": "NC",
+        "content": "Super Roofing Company is dedicated to serving the roofing needs of Concord, NC. With a large number of family homes built in the 1980s and 1990s, Concord residents rely on quality roofing to protect their families and properties from the intense heat and humidity of North Carolina summers. We offer a wide range of roofing services tailored to the specific needs of Concord homes.\n\nOur team of skilled roofers has extensive experience working on homes of all ages and styles in Concord. Whether you need a roof inspection, repair, or replacement, we are committed to providing exceptional service and lasting results. We use only the highest quality materials and the latest techniques to ensure your roof is durable, reliable, and beautiful.",
+        "localContext": "Concord is a thriving city with a rich history and a strong sense of community, known for its family-oriented neighborhoods and popular attractions like the Charlotte Motor Speedway.",
+        "nearbyAreas": [
+          "Kannapolis",
+          "Harrisburg",
+          "Midland"
+        ]
+      },
+      {
+        "city": "Matthews",
+        "slug": "matthews-nc",
+        "state": "NC",
+        "content": "Super Roofing Company is a trusted provider of roofing services in Matthews, NC. An established suburb with many homes built in the 1970s and 1980s, Matthews requires roofing solutions that can withstand the test of time. We understand the unique challenges of maintaining and repairing roofs in Matthews and offer a comprehensive range of services to meet your needs.\n\nFrom routine maintenance to emergency repairs, our team of experienced roofers is dedicated to providing exceptional service and quality workmanship. We are committed to helping Matthews homeowners protect their investments with reliable and affordable roofing solutions. We offer free estimates and personalized service to ensure your complete satisfaction.",
+        "localContext": "Matthews is a charming town known for its tree-lined streets, excellent schools, and strong community spirit, with many homes reflecting the architectural styles of the 1970s and 1980s.",
+        "nearbyAreas": [
+          "Mint Hill",
+          "Weddington",
+          "Stallings"
+        ]
+      },
+      {
+        "city": "Fort Mill",
+        "slug": "fort-mill-sc",
+        "state": "SC",
+        "content": "Super Roofing Company extends its expert roofing services to Fort Mill, SC. As a rapidly growing area with many newer planned communities developed in the 2000s and 2020s, Fort Mill residents expect modern and durable roofing solutions. We specialize in providing high-quality roofing installations and repairs for the diverse range of homes in Fort Mill.\n\nOur team of skilled roofers is equipped to handle any roofing project, from new construction to roof replacements. We use only the best materials and the latest techniques to ensure your roof is built to last. We are committed to providing exceptional customer service and exceeding your expectations. Whether you need a simple repair or a complete roof overhaul, Super Roofing Company is here to serve you.",
+        "localContext": "Fort Mill is a booming town known for its excellent schools, family-friendly environment, and proximity to Charlotte, with many new homes featuring modern roofing designs.",
+        "nearbyAreas": [
+          "Tega Cay",
+          "Indian Land",
+          "Pineville"
+        ]
+      },
+      {
+        "city": "Gastonia",
+        "slug": "gastonia-nc",
+        "state": "NC",
+        "content": "Super Roofing Company is proud to serve the roofing needs of Gastonia, NC. With a significant number of working-class homes built in the 1960s and 1970s, Gastonia residents require affordable and reliable roofing solutions. We understand the unique challenges of maintaining and repairing roofs in Gastonia and offer a range of services to meet your budget and needs.\n\nOur team of experienced roofers is dedicated to providing quality workmanship and exceptional customer service. We are committed to helping Gastonia homeowners protect their homes with durable and affordable roofing solutions. From minor repairs to complete roof replacements, Super Roofing Company is here to help.",
+        "localContext": "Gastonia is a city with a rich industrial history and a strong sense of community, with many homes reflecting the architectural styles of the mid-20th century.",
+        "nearbyAreas": [
+          "Mount Holly",
+          "Belmont",
+          "Dallas"
+        ]
+      },
+      {
+        "city": "Indian Trail",
+        "slug": "indian-trail-nc",
+        "state": "NC",
+        "content": "Super Roofing Company is pleased to offer our roofing expertise to Indian Trail, NC. This rapidly growing town features a mix of established neighborhoods and newer developments, requiring a roofing company that can handle a variety of styles and needs. We provide comprehensive roofing services tailored to the specific requirements of Indian Trail homes.\n\nWhether you're dealing with storm damage, leaks, or simply need a roof inspection, our experienced team is here to help. We use high-quality materials and proven techniques to ensure your roof is durable and long-lasting. Customer satisfaction is our top priority, and we strive to exceed your expectations with every project.",
+        "localContext": "Indian Trail is a family-friendly community known for its parks, recreational opportunities, and convenient access to Charlotte, with a mix of older and newer homes.",
+        "nearbyAreas": [
+          "Monroe",
+          "Wesley Chapel",
+          "Stallings"
+        ]
+      },
+      {
+        "city": "Mooresville",
+        "slug": "mooresville-nc",
+        "state": "NC",
+        "content": "Super Roofing Company provides top-notch roofing services to the residents of Mooresville, NC. Known as 'Race City USA' due to its connection to NASCAR, Mooresville features diverse housing options, from lakeside properties to suburban homes. We understand the specific roofing needs of Mooresville and offer solutions that can withstand the local climate.\n\nOur team is experienced in handling all types of roofing projects, big or small. We prioritize quality workmanship and use premium materials to ensure your roof provides lasting protection for your home. We are committed to delivering exceptional customer service and building lasting relationships with our clients in Mooresville.",
+        "localContext": "Mooresville is a vibrant town known for its beautiful lakefront properties, thriving business community, and strong connection to motorsports.",
+        "nearbyAreas": [
+          "Davidson",
+          "Cornelius",
+          "Troutman"
+        ]
+      },
+      {
+        "city": "Belmont",
+        "slug": "belmont-nc",
+        "state": "NC",
+        "content": "Super Roofing Company is dedicated to serving the roofing needs of Belmont, NC. This historic town offers a blend of charming older homes and newer constructions, requiring a roofing company with versatile skills. We provide a full range of roofing services to Belmont homeowners, ensuring their homes are protected from the elements.\n\nFrom roof repairs to complete replacements, our team is equipped to handle any project with professionalism and expertise. We use only the highest quality materials and the latest techniques to ensure your roof is durable and aesthetically pleasing. We are committed to providing exceptional customer service and exceeding your expectations.",
+        "localContext": "Belmont is a charming town with a rich history, known for its historic downtown, scenic riverfront, and strong sense of community.",
+        "nearbyAreas": [
+          "Mount Holly",
+          "Gastonia",
+          "Clover (SC)"
+        ]
+      },
+      {
+        "city": "Harrisburg",
+        "slug": "harrisburg-nc",
+        "state": "NC",
+        "content": "Super Roofing Company is proud to offer comprehensive roofing services to Harrisburg, NC. Harrisburg is a growing town with a mix of established neighborhoods and new developments. We understand the roofing needs of Harrisburg homeowners and provide tailored solutions to protect their homes.\n\nOur team of experienced roofers is dedicated to providing quality workmanship and exceptional customer service. Whether you need a roof inspection, repair, or replacement, we are committed to helping Harrisburg homeowners protect their investments with reliable and affordable roofing solutions. We offer free estimates and personalized service to ensure your complete satisfaction.",
+        "localContext": "Harrisburg is a family-friendly town known for its excellent schools, community events, and convenient location near Charlotte.",
+        "nearbyAreas": [
+          "Concord",
+          "Charlotte",
+          "Midland"
+        ]
+      },
+      {
+        "city": "Pineville",
+        "slug": "pineville-nc",
+        "state": "NC",
+        "content": "Super Roofing Company is excited to provide top-quality roofing services to Pineville, NC. Positioned near the South Carolina border, Pineville features a blend of residential and commercial properties. Our roofing solutions are designed to meet the specific needs of Pineville residents and businesses, ensuring long-lasting protection and aesthetic appeal.\n\nOur team of skilled roofers is equipped to handle any roofing project, from minor repairs to complete roof replacements. We use only the best materials and the latest techniques to guarantee a durable and reliable roof. We are committed to providing exceptional customer service and exceeding your expectations. Contact us today for a free estimate!",
+        "localContext": "Pineville is a vibrant town known for its shopping centers, diverse community, and convenient location near Charlotte.",
+        "nearbyAreas": [
+          "Charlotte",
+          "Fort Mill (SC)",
+          "Matthews"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Roof Replacement",
+        "text": "Super Roofing replaced our roof after the last big hailstorm. They were incredibly professional, explained everything clearly, and the new roof looks fantastic! Highly recommend. They even helped navigate the insurance claim which was a huge relief.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "John B.",
+        "rating": 4,
+        "service": "Roof Repair",
+        "text": "We had a leak around our chimney, and Super Roofing fixed it quickly and efficiently. The technician was knowledgeable and explained the problem clearly. Price was fair and they showed up on time. Would use them again.",
+        "date": "2024-11-20"
+      },
+      {
+        "name": "Emily K.",
+        "rating": 5,
+        "service": "Gutter Cleaning",
+        "text": "Excellent gutter cleaning service! They were thorough and cleaned up everything afterward. Our gutters were overflowing before, and now they're working perfectly. Great communication from the office too.",
+        "date": "2025-05-01"
+      },
+      {
+        "name": "David S.",
+        "rating": 5,
+        "service": "Storm Damage Repair",
+        "text": "Super Roofing was a lifesaver after the recent windstorm. They responded quickly, tarped our roof to prevent further damage, and worked with our insurance company to get the repairs done. Very professional and reliable.",
+        "date": "2024-09-10"
+      },
+      {
+        "name": "Lisa R.",
+        "rating": 4,
+        "service": "Roof Inspection",
+        "text": "We had Super Roofing inspect our roof before buying a new home in Myers Park. They provided a detailed report with photos and recommendations. It gave us peace of mind knowing the roof was in good condition. Very helpful service.",
+        "date": "2025-01-25"
+      },
+      {
+        "name": "Robert P.",
+        "rating": 5,
+        "service": "Commercial Roofing",
+        "text": "Super Roofing Company did an outstanding job replacing the roof on our commercial building. Their team was professional, efficient, and completed the project on time and within budget. Highly recommend their services for any commercial roofing needs.",
+        "date": "2024-07-08"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Super Roofing Company | Charlotte, NC",
+        "description": "Expert roofing services in Charlotte, NC. Roof repair, replacement, gutters, storm damage. Free estimates."
+      },
+      "about": {
+        "title": "About Super Roofing | Charlotte Roofer",
+        "description": "Learn about Super Roofing Company, your trusted roofing contractor in Charlotte, NC. Quality, local expertise, and commitment."
+      },
+      "services": {
+        "title": "Roofing Services | Super Roofing Charlotte",
+        "description": "Complete roofing services in Charlotte, NC. Roof repair, replacement, gutters, inspections, storm damage. Reliable and affordable."
+      },
+      "contact": {
+        "title": "Contact Super Roofing Company | Charlotte",
+        "description": "Contact Super Roofing Company for a free estimate. Serving Charlotte, NC and surrounding areas. Call us today!"
+      },
+      "reviews": {
+        "title": "Super Roofing Reviews | Charlotte, NC",
+        "description": "Read reviews for Super Roofing Company in Charlotte, NC. See what our satisfied customers are saying about our services."
+      },
+      "service-areas": {
+        "title": "Service Areas | Super Roofing Charlotte",
+        "description": "Super Roofing Company service areas in Charlotte, NC. Huntersville, Concord, Matthews, Fort Mill, Gastonia."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "roof-replacement": "/images/service-roof-replacement.webp",
+      "roof-repair": "/images/service-roof-repair.webp",
+      "gutter-services": "/images/service-gutter-services.webp",
+      "storm-damage-repair": "/images/service-storm-damage-repair.webp",
+      "roof-inspections": "/images/service-roof-inspections.webp",
+      "commercial-roofing": "/images/service-commercial-roofing.webp"
+    },
+    "servicesResponsive": {
+      "roof-replacement": {
+        "src": "/images/service-roof-replacement.webp",
+        "srcset": "/images/service-roof-replacement-400w.webp 400w, /images/service-roof-replacement-800w.webp 800w, /images/service-roof-replacement-1200w.webp 1200w, /images/service-roof-replacement.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "roof-repair": {
+        "src": "/images/service-roof-repair.webp",
+        "srcset": "/images/service-roof-repair-400w.webp 400w, /images/service-roof-repair-800w.webp 800w, /images/service-roof-repair-1200w.webp 1200w, /images/service-roof-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "gutter-services": {
+        "src": "/images/service-gutter-services.webp",
+        "srcset": "/images/service-gutter-services-400w.webp 400w, /images/service-gutter-services-800w.webp 800w, /images/service-gutter-services-1200w.webp 1200w, /images/service-gutter-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "storm-damage-repair": {
+        "src": "/images/service-storm-damage-repair.webp",
+        "srcset": "/images/service-storm-damage-repair-400w.webp 400w, /images/service-storm-damage-repair-800w.webp 800w, /images/service-storm-damage-repair-1200w.webp 1200w, /images/service-storm-damage-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "roof-inspections": {
+        "src": "/images/service-roof-inspections.webp",
+        "srcset": "/images/service-roof-inspections-400w.webp 400w, /images/service-roof-inspections-800w.webp 800w, /images/service-roof-inspections-1200w.webp 1200w, /images/service-roof-inspections.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-roofing": {
+        "src": "/images/service-commercial-roofing.webp",
+        "srcset": "/images/service-commercial-roofing-400w.webp 400w, /images/service-commercial-roofing-800w.webp 800w, /images/service-commercial-roofing-1200w.webp 1200w, /images/service-commercial-roofing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
